@@ -77,6 +77,7 @@
     <tr><td>LinkedIn URL (optional)</td><td>You</td><td>Professional verification</td></tr>
     <tr><td>Ratings and written reviews you submit</td><td>You</td><td>Community trust score for businesses</td></tr>
     <tr><td>Subscriptions and preferences</td><td>You</td><td>To notify you of new listings matching your interests</td></tr>
+    <tr><td>Broadcast opt-in preference</td><td>You, during onboarding or via bot commands</td><td>To respect your choice about receiving promotional campaign messages from fellow members</td></tr>
     <tr><td>Consent record and timestamp</td><td>System-generated when you consent</td><td>Regulatory compliance evidence</td></tr>
     <tr><td>Audit log of actions you take</td><td>System-generated</td><td>Dispute resolution and compliance</td></tr>
   </tbody>
@@ -101,7 +102,34 @@
   always prove which version you consented to. You may be asked to re-consent if the consent text changes materially.
 </p>
 
-<h2>6. Who we share your data with</h2>
+<h2>6. Promotional campaign broadcasts</h2>
+<p>
+  As a member of the PKD-ProBase community, you may occasionally receive promotional broadcast
+  messages from other vetted members whose paid campaigns have been approved by our admins.
+  Promotional broadcasts are part of the core service you consented to when you joined the bot
+  and are subject to the following safeguards:
+</p>
+<ul>
+  <li><strong>Direct messages only.</strong> Broadcasts are delivered as one-to-one WhatsApp messages. They are never posted into any group chat on your behalf.</li>
+  <li><strong>Admin-reviewed content.</strong> Every campaign is reviewed and approved by a PKD administrator before it is broadcast.</li>
+  <li><strong>No third-party advertising.</strong> Only campaigns from vetted PKD-ProBase members are broadcast. We do not carry advertising from outside the community.</li>
+  <li><strong>Frequency limits.</strong> Each campaign is sent to you only once during its active window. Our system also caps how many campaigns a single business can run concurrently.</li>
+  <li>
+    <strong>One-step opt-out, at any time.</strong> You can stop receiving promotional broadcasts without affecting any other part of your account by either:
+    <ul>
+      <li>Replying <code>STOP</code> to any broadcast message, or</li>
+      <li>Sending the bot <code>/broadcasts off</code></li>
+    </ul>
+    Your opt-out takes effect immediately. To opt back in later, send <code>/broadcasts on</code>.
+  </li>
+</ul>
+<p>
+  Opting out of promotional broadcasts does <strong>not</strong> withdraw your consent to the rest
+  of the service. To withdraw consent entirely and have your data erased, send <code>/delete-my-data</code>
+  to the bot (see section 9 below).
+</p>
+
+<h2>7. Who we share your data with</h2>
 <p>We do <strong>not</strong> sell your personal data, rent it, or share it for advertising. The only parties who process your data are:</p>
 <table>
   <thead><tr><th>Party</th><th>What they process</th><th>Why</th></tr></thead>
@@ -119,7 +147,7 @@
   revealed to other users — including the business you rated.
 </p>
 
-<h2>7. How long we keep your data</h2>
+<h2>8. How long we keep your data</h2>
 <table>
   <thead><tr><th>Data category</th><th>Retention period</th></tr></thead>
   <tbody>
@@ -134,7 +162,7 @@
   </tbody>
 </table>
 
-<h2>8. Your rights under Ghana's Data Protection Act</h2>
+<h2>9. Your rights under Ghana's Data Protection Act</h2>
 <p>Act 843 gives you the following rights. You can exercise all of them directly through the PKD-ProBase bot:</p>
 <ul>
   <li><strong>Right of access</strong> — type <code>/my-data</code> to the bot. It will return a summary of all data we hold about you.</li>
@@ -145,7 +173,7 @@
   <li><strong>Right to complain</strong> — you may lodge a complaint with the Data Protection Commission of Ghana at <a href="https://dpc.gov.gh">https://dpc.gov.gh</a>.</li>
 </ul>
 
-<h2>9. How we protect your data</h2>
+<h2>10. How we protect your data</h2>
 <ul>
   <li>All messages to and from the bot travel over HTTPS/TLS.</li>
   <li>Incoming webhooks are verified using HMAC-SHA256 signatures to prevent spoofing.</li>
@@ -156,34 +184,34 @@
   <li>Admin commands are restricted to a pre-registered list of authorised numbers.</li>
 </ul>
 
-<h2>10. Minimum age</h2>
+<h2>11. Minimum age</h2>
 <p>
   PKD-ProBase is a professional directory for adult professionals. By consenting to use the bot, you confirm that you
   are 18 years of age or older. We do not knowingly collect personal data from children.
 </p>
 
-<h2>11. International data transfers</h2>
+<h2>12. International data transfers</h2>
 <p>
   Our hosting provider may operate servers outside Ghana. Where this occurs, we rely on data processing agreements
   and appropriate safeguards to ensure your data remains protected to the standard required by Act 843. By consenting
   to use the bot, you agree to this cross-border transfer.
 </p>
 
-<h2>12. Data breaches</h2>
+<h2>13. Data breaches</h2>
 <p>
   If we become aware of a personal data breach that is likely to result in harm to you, we will notify you via
   WhatsApp and notify the Data Protection Commission of Ghana as soon as practicable, in line with our obligations
   under Act 843.
 </p>
 
-<h2>13. Changes to this policy</h2>
+<h2>14. Changes to this policy</h2>
 <p>
   We may update this policy from time to time. Material changes that affect your consent will trigger a re-consent
   prompt from the bot the next time you interact with it. The "Last updated" date at the top of this page always
   shows when the policy was last revised.
 </p>
 
-<h2>14. Contact us</h2>
+<h2>15. Contact us</h2>
 <p>
   For any privacy-related question, request, or complaint, contact the PKD Data Protection Contact on WhatsApp at
   <a href="https://wa.me/233541706481">+233 54 170 6481</a>. We aim to respond within a reasonable time frame
